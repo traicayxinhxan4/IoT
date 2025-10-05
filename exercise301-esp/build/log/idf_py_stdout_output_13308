@@ -1,0 +1,62 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=e:\ThucHanhChuyenDeIoT\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 E:\iot-projects-final\exercise301-esp
+-- Found Git: E:/ThucHanhChuyenDeIoT/.espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1")
+-- Minimal build - ON
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/ThucHanhChuyenDeIoT/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/ThucHanhChuyenDeIoT/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/ThucHanhChuyenDeIoT/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Using component placed at E:\ThucHanhChuyenDeIoT\esp\v5.5\esp-idf\examples\common_components\protocol_examples_common for dependency "protocol_examples_common", specified in E:\iot-projects-final\exercise301-esp\main\idf_component.yml
+NOTICE: Processing 3 dependencies:
+NOTICE: [1/3] espressif/led_strip (2.5.5)
+NOTICE: [2/3] protocol_examples_common (*) (E:\ThucHanhChuyenDeIoT\esp\v5.5\esp-idf\examples\common_components\protocol_examples_common)
+NOTICE: [3/3] idf (5.5.0)
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+-- Project sdkconfig file E:/iot-projects-final/exercise301-esp/sdkconfig
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/riscv/ld/rom.api.ld
+-- Found Python3: e:/ThucHanhChuyenDeIoT/.espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- USING O3
+-- App "mqtt_tcp" version: 1
+-- Adding linker script E:/iot-projects-final/exercise301-esp/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script E:/iot-projects-final/exercise301-esp/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.bt_funcs.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_master.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_50.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_smp.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_dtm.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_test.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ble_scan.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3_bt_funcs.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libc-suboptimal_for_misaligned_mem.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_update bootloader bootloader_support console cxx driver efuse esp-tls esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_hw_support esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espressif__led_strip esptool_py freertos hal heap http_parser ieee802154 log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protocol_examples_common pthread riscv sdmmc soc spi_flash tcp_transport vfs wpa_supplicant
+-- Component paths: E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/app_update E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/bootloader E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/bootloader_support E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/console E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/cxx E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/driver E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/efuse E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp-tls E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_app_format E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_bootloader_format E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_coex E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_common E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_bitscrambler E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_dac E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_gpio E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_gptimer E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_i2c E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_i2s E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_ledc E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_mcpwm E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_parlio E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_pcnt E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_rmt E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_sdio E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_sdm E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_sdmmc E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_sdspi E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_spi E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_tsens E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_twai E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_uart E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_eth E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_event E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_hw_support E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_mm E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_netif E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_netif_stack E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_partition E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_phy E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_pm E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_ringbuf E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_rom E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_security E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_system E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_timer E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_vfs_console E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esp_wifi E:/iot-projects-final/exercise301-esp/managed_components/espressif__led_strip E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/esptool_py E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/freertos E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/hal E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/heap E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/http_parser E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/ieee802154 E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/log E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/lwip E:/iot-projects-final/exercise301-esp/main E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/mbedtls E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/mqtt E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/newlib E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/nvs_flash E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/openthread E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/partition_table E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/examples/common_components/protocol_examples_common E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/pthread E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/riscv E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/sdmmc E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/soc E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/spi_flash E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/tcp_transport E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/vfs E:/ThucHanhChuyenDeIoT/esp/v5.5/esp-idf/components/wpa_supplicant
+-- Configuring done (25.1s)
+-- Generating done (1.8s)
+-- Build files have been written to: E:/iot-projects-final/exercise301-esp/build

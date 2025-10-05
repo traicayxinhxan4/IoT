@@ -1,0 +1,114 @@
+Command: e:\ThucHanhChuyenDeIoT\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe e:\ThucHanhChuyenDeIoT\esp\v5.5\esp-idf\tools/idf_monitor.py -p COM7 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace E:\iot-projects-final\exercise301-esp\build\mqtt_tcp.elf E:\iot-projects-final\exercise301-esp\build\bootloader\bootloader.elf --force-color -m 'e:\ThucHanhChuyenDeIoT\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'e:\ThucHanhChuyenDeIoT\esp\v5.5\esp-idf\tools\idf.py'
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xf (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42005f7e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x15c0
+load:0x403cbf10,len:0xc34
+load:0x403ce710,len:0x2ff0
+entry 0x403cbf1a
+[0;32mI (24) boot: ESP-IDF v5.5 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Oct  5 2025 18:27:37[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (25) boot: efuse block revision: v1.3[0m
+[0;32mI (28) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=1de28h (122408) map[0m
+[0;32mI (102) esp_image: segment 1: paddr=0002de50 vaddr=3fc94600 size=021c8h (  8648) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=b14dch (726236) map[0m
+[0;32mI (222) esp_image: segment 3: paddr=000e1504 vaddr=3fc967c8 size=00c2ch (  3116) load[0m
+[0;32mI (223) esp_image: segment 4: paddr=000e2138 vaddr=40380000 size=145ech ( 83436) load[0m
+[0;32mI (241) esp_image: segment 5: paddr=000f672c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (248) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (248) boot: Disabling RNG early entropy source...[0m
+[0;32mI (259) cpu_start: Unicore app[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (267) app_init: Application information:[0m
+[0;32mI (267) app_init: Project name:     mqtt_tcp[0m
+[0;32mI (271) app_init: App version:      1[0m
+[0;32mI (275) app_init: Compile time:     Oct  5 2025 18:26:45[0m
+[0;32mI (280) app_init: ELF file SHA256:  a168561c7...[0m
+[0;32mI (284) app_init: ESP-IDF:          v5.5[0m
+[0;32mI (288) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (291) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (295) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (299) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (306) heap_init: At 3FC9BD00 len 00024300 (144 KiB): RAM[0m
+[0;32mI (311) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (317) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (323) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM[0m
+[0;32mI (329) spi_flash: detected chip: generic[0m
+[0;32mI (332) spi_flash: flash io: dio[0m
+[0;33mW (335) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (347) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (353) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (360) main_task: Started on CPU0[0m
+[0;32mI (360) main_task: Calling app_main()[0m
+[0;32mI (370) pp: pp rom version: 9387209[0m
+[0;32mI (370) net80211: net80211 rom version: 9387209[0m
+[0;32mI (380) wifi:wifi driver task: 3fca4724, prio:23, stack:6656, core=0[0m
+[0;32mI (380) wifi:wifi firmware version: f3dbad7[0m
+[0;32mI (380) wifi:wifi certification version: v7.0[0m
+[0;32mI (380) wifi:config NVS flash: enabled[0m
+[0;32mI (390) wifi:config nano formatting: disabled[0m
+[0;32mI (390) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (400) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (400) wifi:Init management short buffer num: 32[0m
+[0;32mI (400) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (410) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (410) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (420) wifi:Init static rx buffer num: 10[0m
+[0;32mI (420) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (420) wifi_init: rx ba win: 6[0m
+[0;32mI (430) wifi_init: accept mbox: 6[0m
+[0;32mI (430) wifi_init: tcpip mbox: 32[0m
+[0;32mI (430) wifi_init: udp mbox: 6[0m
+[0;32mI (440) wifi_init: tcp mbox: 6[0m
+[0;32mI (440) wifi_init: tcp tx win: 5760[0m
+[0;32mI (440) wifi_init: tcp rx win: 5760[0m
+[0;32mI (440) wifi_init: tcp mss: 1440[0m
+[0;32mI (450) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (450) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (460) phy_init: phy_version 1201,bae5dd99,Mar  3 2025,15:36:21[0m
+[0;32mI (500) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (510) wifi:mode : sta (0c:4e:a0:64:41:18)[0m
+[0;32mI (510) wifi:enable tsf[0m
+[0;32mI (510) MQTT_EX301: Connecting to WiFi...[0m
+[0;32mI (510) main_task: Returned from app_main()[0m
+[0;32mI (1120) wifi:new:<5,1>, old:<1,0>, ap:<255,255>, sta:<5,1>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1120) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1120) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1130) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (1140) wifi:connected with Thanh Hieu, aid = 8, channel 5, 40U, bssid = 88:d2:74:e2:24:48[0m
+[0;32mI (1140) wifi:security: WPA2-PSK, phy: bgn, rssi: -51[0m
+[0;32mI (1150) wifi:pm start, type: 1[0m
+
+[0;32mI (1150) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1150) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (1160) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (4240) esp_netif_handlers: sta ip: 192.168.1.10, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4240) MQTT_EX301: Got IP -> starting MQTT client[0m
+[0;32mI (4370) wifi:<ba-add>idx:0 (ifx:0, 88:d2:74:e2:24:48), tid:0, ssn:4, winSize:64[0m
+[0;32mI (4690) MQTT_EX301: MQTT connected[0m
+[0;32mI (4700) MQTT_EX301: Subscribed to /sensor/led, msg_id=55443[0m
+[0;32mI (36480) MQTT_EX301: Received topic: /sensor/led, data: LED_ON[0m
+[0;32mI (36480) MQTT_EX301: LED turned ON (GPIO8)[0m
+[0;32mI (147900) MQTT_EX301: Received topic: /sensor/led, data: LED_OFF[0m
+[0;32mI (147900) MQTT_EX301: LED turned OFF (GPIO8)[0m
+[0;32mI (326800) MQTT_EX301: Received topic: /sensor/led, data: LED_ON[0m
+[0;32mI (326800) MQTT_EX301: LED turned ON (GPIO8)[0m
+[0;32mI (329260) MQTT_EX301: Received topic: /sensor/led, data: LED_ON[0m
+[0;32mI (329260) MQTT_EX301: LED turned ON (GPIO8)[0m
+[0;32mI (330690) MQTT_EX301: Received topic: /sensor/led, data: LED_OFF[0m
+[0;32mI (330690) MQTT_EX301: LED turned OFF (GPIO8)[0m
